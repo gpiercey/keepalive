@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# cat make-linux-binary.sh ../target/keepalive-1.0.0-SNAPSHOT.jar > keepalive
-# chmod +x keepalive
+# cat make-linux-binary.sh ../target/keepalive-1.0.0-SNAPSHOT-shaded.jar > ../target/keepalive
+# chmod +x ../target/keepalive
 
 SELF=`which "$0" 2>/dev/null`
 [ $? -gt  0 -a -f "$0" ] && SELF="./$0"
