@@ -1,9 +1,9 @@
 # keepalive
-A simple command line application that prevents automatic screen locking by wobbling the mouse cursor at regular intervals.
+A simple command line utility that prevents automatic screen locking by wobbling the mouse cursor at regular intervals.
 
-I wrote this application when I am working from home because the corporate security policy that locks my computer when the screen saver runs is very counter-productive and I am unable to change the settings.
+In reality, this utility is only useful to users who's security policy has removed their ability to configure their screen saver and locking options.
 
-To address this issue I needed something to prevent the session from going idle. I didn't trust the sources of similar applications available on the internet so I wrote my own and the source code is available for full disclosure. Examine it yourself to be sure it is not doing something bad.
+Run this application in the background to wobble the mouse every couple minutes when it detects that your session is idle. Its that simple and it works!
 
 ## Make Windows Binaries
 
